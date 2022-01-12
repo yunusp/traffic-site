@@ -24,6 +24,7 @@ body{
 }
 .topnav a {
     /* transform: translate(100%, 0%); */
+    font-family: 'roboto', sans-serif;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -38,10 +39,25 @@ body{
 }
 
 .content {
-    display: block;
     height: 100%;
     width: 100%;
     padding: 10px;
+}
+.textblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .footer{
